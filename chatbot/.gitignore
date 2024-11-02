@@ -1,0 +1,15 @@
+#ignore log files
+*.log
+
+#ignore folder with knowledge documents
+#knowledgeBase/
+
+#ignore folder with models
+#models/
+
+#ignore the embedding db
+#db/
+
+#ignore the module cache
+__pycache__/
+app/__pycache__/

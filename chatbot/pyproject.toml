@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = "RAG Chatbot"
+authors = ["Alex Hill <alex.hill@valkyrie.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.112.2"
+langserve = {extras = ["all"], version = "^0.2.2"}
+sqlalchemy = "^2.0.32"
+langchain-chroma = "^0.1.3"
+langchain-core = "^0.2.35"
+langchain-ollama = "^0.1.1"
+langchain = "^0.2.14"
+llama-index = "^0.11.1"
+transformers = "4.42.3"
+langchain-cli = "^0.0.30"
+langchain-community = "^0.2.12"
+instructorembedding = "^1.0.1"
+sentence-transformers = "2.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
