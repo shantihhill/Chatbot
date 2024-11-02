@@ -1,0 +1,17 @@
+/chatbot/models
+/chatbot/packages
+
+/frontenedchatbot/node_modules
+/frontenedchatbot/dist
+/frontenedchatbot/dist-ssr
+/frontenedchatbot/*.local
+
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
